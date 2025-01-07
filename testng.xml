@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="P0"/>
+        </run>
+    </groups>
+    <test verbose="2" thread-count="2" parallel="methods" name="ATB7X_WebAutomation_Framework">
+        <classes>
+            <class name="com.org.example.tests.TestVWOLogin">
+            </class>
+        </classes>
+    </test>
+</suite>
